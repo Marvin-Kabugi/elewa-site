@@ -1,0 +1,28 @@
+/* .h2 .h1 {
+    z-index: 2;
+} */
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.h2 {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    color: white;
+}
+
+.h1 {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 22.5%;
+    font-size: 4rem;
+    color: white;
+    font-weight: 400;
+    text-align:start;
+}
