@@ -1,0 +1,27 @@
+.bg-child-component {
+    background: #f7f7f7;
+}
+
+.child-components {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.child-components h5 {
+    font-size: 6rem;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 7rem;
+}
+
+.child-components p {
+    width: 70%;
+    font-size: 2.7rem;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.child-components img {
+    padding-top: 4.5rem;
+    width: 100%;
+}

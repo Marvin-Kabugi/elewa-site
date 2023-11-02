@@ -1,15 +1,15 @@
 import React from "react"
 
 interface Props {
-    heading: string;
+    // heading?: string;
     children: React.ReactNode;
 }
-export default function FooterElement({children, heading}: Props){
+export default function FooterElement({children}: Props){
     
     return (
         <>
             <div>
-                <h4>{heading}</h4>
+                {/* <h4>{heading}</h4> */}
                 {children}
             </div>
         </>

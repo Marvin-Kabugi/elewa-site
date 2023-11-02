@@ -22,9 +22,6 @@
 .nav-link-item a{
     padding: 0.75rem;
     text-decoration: none;
-    /* color: white; */
+    color: white;
 }
 
-img {
-    background: #000;
-}

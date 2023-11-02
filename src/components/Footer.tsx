@@ -33,13 +33,15 @@ export default function Footer() {
                 </React.Fragment>
             );
         }
+        pTags.unshift(<><h4>{heading.heading}</h4></>)
         return pTags;
     });
 
     return (
         <div className='container-2'>
             <div className='footer-link-container'>
-            <FooterElement heading='Headquarters'>
+            <FooterElement >
+                <h4>Headquarters</h4>
                 <p>
                     The Promenade, 19 General
                     <br />
@@ -49,7 +51,7 @@ export default function Footer() {
                 </p>
             </FooterElement>
             {headings.map((heading, index) => (
-                <FooterElement key={heading.heading} heading={heading.heading}>
+                <FooterElement key={heading.heading}>
                     {x[index]}
                 </FooterElement>
             ))}
