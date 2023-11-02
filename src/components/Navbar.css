@@ -1,0 +1,30 @@
+.main-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 2rem auto;
+    /* padding: 2rem; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link-item a{
+    padding: 0.75rem;
+    text-decoration: none;
+    /* color: white; */
+}
+
+img {
+    background: #000;
+}
