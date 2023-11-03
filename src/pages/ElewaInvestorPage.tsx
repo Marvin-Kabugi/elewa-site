@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FooterElement from '../components/FooterElement';
 import KeyFigure from '../components/KeyFigure';
 import ImageDescription from '../components/ImageDescription';
+import TextHolder from '../components/TextHolder';
 import { ImageDescriptionsInvestor } from '../data';
 import './ElewaInvestorPage.css'
 
@@ -12,6 +13,9 @@ export default function InvestorPage(){
     const title: string = "How we see it differently"
     const paragraph: string = "The global South is rapidly catching up with the \"developed\" world. It's time for you to get to know the rapid development, innovation and drive going on in this part of the world (East-Africa, South Asia and beyond)."
     const imageUrl: string = "https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png"
+    const spanOne: string = "Become part of our mission."
+    const spanTwo: string = "And start"
+    const alink: string = "investing"
     let toRender = ImageDescriptionsInvestor.map((element, index) => {
 
         return (
@@ -40,6 +44,12 @@ export default function InvestorPage(){
             </div>
             <KeyFigure />
             {toRender}
+            <TextHolder heading={spanOne}>
+                <span>
+                    {spanTwo}  {" "}
+                    <a className="span-link" href="">{alink}</a>
+                </span>
+            </TextHolder>
             <Footer />
         </>
     )
