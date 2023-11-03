@@ -4,7 +4,7 @@ interface Props {
     // heading?: string;
     children: React.ReactNode;
 }
-export default function FooterElement({children}: Props){
+export default function ChildElement({children}: Props){
     
     return (
         <>

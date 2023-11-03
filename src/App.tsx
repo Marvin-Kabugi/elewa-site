@@ -1,9 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar';
-import Landing from './components/Landing';
-import InvestorPage from './pages/ElewaInvestorPage';
+import InvestorPage from './pages/ElewaInvestorPage/ElewaInvestorPage';
 
 function App() {
   // const links: string[] = ['Home', 'About Us', 'Social Impact', 'Invest', 'Venture Labs', 'Brands', 'Careers', 'Contact']

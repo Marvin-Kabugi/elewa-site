@@ -1,6 +1,6 @@
 import React from "react"
 import KeyFigureElement from "./KeyFigureElement"
-import KeyFigures from "../data"
+import KeyFigures from "../../data"
 import './KeyFigure.css'
 
 export default function KeyFigure() {

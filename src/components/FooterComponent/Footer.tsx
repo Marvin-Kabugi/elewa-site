@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Footer.css';
-import FooterElement from './FooterElement';
+import ChildElement from '../ChildComponent/ChildElement';
 
 interface Heading {
     heading: string;
@@ -40,7 +40,7 @@ export default function Footer() {
     return (
         <div className='container-2'>
             <div className='footer-link-container'>
-            <FooterElement >
+            <ChildElement >
                 <h4>Headquarters</h4>
                 <p>
                     The Promenade, 19 General
@@ -49,11 +49,11 @@ export default function Footer() {
                     <br />
                     Nairobi, Kenya
                 </p>
-            </FooterElement>
+            </ChildElement>
             {headings.map((heading, index) => (
-                <FooterElement key={heading.heading}>
+                <ChildElement key={heading.heading}>
                     {x[index]}
-                </FooterElement>
+                </ChildElement>
             ))}
             </div>
             <div className='footer-link-image-container'>
