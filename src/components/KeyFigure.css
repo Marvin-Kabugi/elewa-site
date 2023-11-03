@@ -1,0 +1,12 @@
+.parent-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+    padding: 3.1rem 0;
+}
+
+.figure-title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 3.1rem;
+}

@@ -1,0 +1,26 @@
+.key-element {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 6.2rem;
+    border-radius: 5%;
+}
+
+.key-element h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 0;
+    
+}
+
+.key-element p {
+    padding: 1.5rem;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.key-element span {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}

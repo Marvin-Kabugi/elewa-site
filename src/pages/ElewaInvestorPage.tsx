@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 import Landing from '../components/Landing';
 import Footer from '../components/Footer';
 import FooterElement from '../components/FooterElement';
+import KeyFigure from '../components/KeyFigure';
 import './ElewaInvestorPage.css'
 
 export default function InvestorPage(){
@@ -15,14 +16,15 @@ export default function InvestorPage(){
             <NavBar links={links}/>
             <Landing />
             <div className='bg-child-component'>
-            <div className='child-components'>
-                <FooterElement>
-                    <h5>{title}</h5>
-                    <p>{paragraph}</p>
-                    <img src={imageUrl} alt="" />
-                </FooterElement>
+                <div className='child-components'>
+                    <FooterElement>
+                        <h5>{title}</h5>
+                        <p>{paragraph}</p>
+                        <img src={imageUrl} alt="" />
+                    </FooterElement>
+                </div>
             </div>
-            </div>
+            <KeyFigure />
             <Footer />
         </>
     )
