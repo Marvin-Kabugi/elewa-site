@@ -25,3 +25,14 @@
     padding-top: 4.5rem;
     width: 100%;
 }
+
+.span-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.span-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3.5px;
+}
