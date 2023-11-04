@@ -17,7 +17,7 @@
 
 .image-description h1 {
     font-weight: 300;
-    font-size: 4.5rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     margin-top: 0;
 }
@@ -25,11 +25,30 @@
 .image-description p {
     font-size: 2rem;
     font-weight: 400;
+    margin: 0.5rem 0;
 }
 
 .image-element img {
     border-radius: 2rem;
-    max-height: max(30vh, 500px);
+    max-height: max(70vh, 500px);
     max-width: 45vw;
     object-fit: cover;
+}
+
+.bg-black {
+    background-color: black;
+    border-radius: 0 0 30px 30px;
+    color: white;
+    overflow: hidden; /* Apply rounded corners to the container */
+
+}
+
+
+.bg-grey {
+    background-color: rgb(236, 236, 236);
+    border-radius: 0 0 30px 30px;
+}
+
+.bg-none {
+    border-radius: 0 0 5% 5%;
 }

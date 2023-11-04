@@ -1,0 +1,18 @@
+.project-list-container {
+    display: flex;
+    /* animation-name: anim;
+    animation: 40s linear infinite;  */
+    animation: anim 40s linear infinite; 
+    /* width: 218rem; */
+
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1750px);
+    }
+    
+}

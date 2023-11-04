@@ -1,0 +1,9 @@
+.project-heading {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.project-heading p {
+    font-size: 3.5rem;
+    font-weight: 400;
+}

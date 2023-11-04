@@ -9,7 +9,6 @@ import { ImageDescriptionsInvestor } from '../../data';
 import './ElewaInvestorPage.css'
 
 export default function InvestorPage(){
-    const links: string[] = ['Home', 'About Us', 'Social Impact', 'Invest', 'Venture Labs', 'Brands', 'Careers', 'Contact']
     const title: string = "How we see it differently"
     const paragraph: string = "The global South is rapidly catching up with the \"developed\" world. It's time for you to get to know the rapid development, innovation and drive going on in this part of the world (East-Africa, South Asia and beyond)."
     const childImageUrl: string = "https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png"
@@ -24,18 +23,18 @@ export default function InvestorPage(){
 
         return (
             element.description2 !== (null || undefined) ? (
-                <ImageDescription title={element.heading} imageUrl={element.imageUrl} description={element.description1} index={index + 1}>
+                <ImageDescription key={element.heading} title={element.heading} imageUrl={element.imageUrl} description={element.description1} index={index + 1}>
                     <p>{element.description2}</p>
                 </ImageDescription>) :
             (
-                <ImageDescription title={element.heading} imageUrl={element.imageUrl} description={element.description1} index={index + 1}/>
+                <ImageDescription key={element.heading} title={element.heading} imageUrl={element.imageUrl} description={element.description1} index={index + 1}/>
             )
         )
     })
 
     return (
         <>
-            <NavBar links={links}/>
+            {/* <NavBar links={links}/> */}
             <Landing imageUrl={imageUrl} h1String={h1String} h2String={h2String}/>
             <div className='bg-child-component'>
                 <div className='child-components'>

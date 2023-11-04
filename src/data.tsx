@@ -12,6 +12,28 @@ interface ImageDescription {
     imageUrl: string;
 }
 
+interface SocialImpactInterface {
+    heading: string;
+    description: string;
+    description2?: string;
+    description3?: string;
+    imageUrl: string;
+    cssClass?: string;
+}
+export interface ProjectListInterface {
+    imageUrl: string
+}
+
+export interface MetricsInterface {
+    metric: string;
+    description: string;
+}
+
+export interface LinkDescription {
+    name: string;
+    link: string;
+}
+
 const KeyFigures: KeyFigure[] = [
     {
         heading: "1.3M",
@@ -66,6 +88,81 @@ export const ImageDescriptionsInvestor: ImageDescription[] = [
         imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983082/elewa-group-website/Images/invest-now_ftxg4z.jpg"
     }
 
+]
+
+export const SocialImpact: SocialImpactInterface[] = [
+    {
+        heading: '(Social) business for the win',
+        description: "With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive and scalable business. The rest will take care of itself.",
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg",
+        cssClass: "bg-black"
+    },
+    {
+        heading: "A cooperative mindset",
+        description: "Elewa has one shared objective; To unlock the true potential of individuals, teams, and the community. We believe strongly in the power of sharing ideas and continuously strive to grow each other and ourselves. Internally, but also within the larger communities in which we are active.",
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg",
+        cssClass: "bg-grey"
+    },
+    {
+        heading: "Beyond business",
+        description: "We channel a good amount of our resources into giving back.",
+        description2: "Through projects such as our coding school in Kakuma refugee camp, training teachers in pastoral Samburu and our open-source coding initiatives providing entry-level opportunities to hundreds of junior engineers",
+        description3: "These projects don't necessarily have an immediate financial return, but their impact can be tangibly measured in the long-term.",
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png",
+        cssClass: "bg-none"
+    },
+    {
+        heading: "Open knowledge",
+        description: "What we learn, we share. Through community events, open knowledge repositories, regular teaching moments (everyone a teacher) and academic partnerships.",
+        description2: "We build for today, with a lens on tomorrow.",
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png",
+        cssClass: "bg-black"
+    }
+]
+
+export const metricsData: MetricsInterface[] = [
+    {
+        metric: '733+',
+        description: 'People trained'
+    },
+    {
+        metric: '733k',
+        description: 'careers launched'
+    },
+    {
+        metric: '200+',
+        description: 'Projects finished'
+    },
+    {
+        metric: '56',
+        description: 'Investors'
+    }
+]
+
+export const appLinks: LinkDescription[] = [
+    {name: 'Home', link: "#"},
+    {name: 'About Us', link: "/about"},
+    {name: 'Social Impact', link: '/social-impact'},
+    {name: 'Invest', link: "/"},
+    {name: 'Venture Labs', link: "#"},
+    {name: 'Brands', link: "#"},
+    {name: 'Careers', link: "#"},
+    {name: 'Contact', link: "#"},
+]
+
+export const ProjectListData: ProjectListInterface[] = [
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380443/elewa-group-website/client-logos/ms-adc_y96dms.jpg"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380412/elewa-group-website/client-logos/Spotlights_7_pplnvm.jpg"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/Kenya_Scouts_Association_kcoka5.svg"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/wwf-4-logo-png-transparent_tbkfcq.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/vvob-logo_qyvjbp.jpg"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/farmbetter-logo_x2acda.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/it_volk_black_logo_image_iowrws.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/hoplit-logo_nsryy7.webp"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/2017-GIZ-Logo_htdnpa.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/Enabel-logo_afiel7.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/syndicyourself_logfo_qiqrex.png"},
+    {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/adc-logo_dgxpul.jpg"},
 ]
 
 export default KeyFigures
