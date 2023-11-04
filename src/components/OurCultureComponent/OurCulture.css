@@ -1,0 +1,15 @@
+.culture-container {
+    padding: 3.2rem 3rem;
+}
+
+.heading-container {
+    padding: 0.6rem 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.culture-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+

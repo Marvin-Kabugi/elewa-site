@@ -1,0 +1,22 @@
+.mp-main {
+    background-color: #f4f4f4;
+    padding: 5rem 0;
+}
+
+.mp-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.map-heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin:2.375rem 0; 
+}
+
+.mp-container p {
+    margin: 2.375rem 0;
+    font-size: 1.2rem;
+    width: 60%;
+
+}

@@ -6,6 +6,7 @@ import logo from './logo.svg';
 import './App.css';
 import InvestorPage from './pages/ElewaInvestorPage/ElewaInvestorPage';
 import ElewaSocialImpact from './pages/ElewaSocialImpactPage/ElewaSocialImpact';
+import AboutUsPage from './pages/ElewaAboutUsPage/ElewaAboutUsPage';
 import NavBar from './components/NavBarComponent/NavBar';
 import { appLinks } from './data';
 
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<InvestorPage />}/> {/* 👈 Renders at /app/ */}
         <Route path="/social-impact" element={<ElewaSocialImpact />}/>
+        <Route path='/about' element={<AboutUsPage />} />
       </Routes>
 
     </div>

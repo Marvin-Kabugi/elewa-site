@@ -8,13 +8,6 @@ interface MyComponentProps {
 
 export default function NavBar({ links }: MyComponentProps){
     let url: string = "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690297/elewa-group-website/Icons/SVG/_Logo/Logo_White_arvoyx.svg"
-    
-    function navigate(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>): void {
-        e.preventDefault();
-        if (e.currentTarget.href) { // currentTarget should be used to get the actual anchor element
-            window.history.pushState(null, "", e.currentTarget.href);
-        }
-    }
 
     return (
         <>  

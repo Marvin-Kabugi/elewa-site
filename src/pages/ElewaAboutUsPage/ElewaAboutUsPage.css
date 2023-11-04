@@ -1,0 +1,9 @@
+.p-tag {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 7%;
+    color: white;
+    font-weight: 900;
+    text-align:start; 
+}

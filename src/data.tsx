@@ -20,6 +20,20 @@ interface SocialImpactInterface {
     imageUrl: string;
     cssClass?: string;
 }
+
+interface LandingInterface {
+    imageUrl: string;
+    h2Header: string;
+    h1Header: string;
+}
+
+interface TeamInterface {
+    imageUrl: string;
+    name: string;
+    role: string;
+    management: boolean;
+}
+
 export interface ProjectListInterface {
     imageUrl: string
 }
@@ -164,5 +178,125 @@ export const ProjectListData: ProjectListInterface[] = [
     {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/syndicyourself_logfo_qiqrex.png"},
     {imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/adc-logo_dgxpul.jpg"},
 ]
+
+export const LandingData: Record<string, LandingInterface> = {
+    AboutLandingData: {
+      imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg",
+      h2Header: "HOW TO RECOGNIZE AN ELEWA MEMBER", // corrected property name
+      h1Header: "Dependable, Creative, Supportive, Open Minded and Fun*" // corrected property name
+    }
+  };
+
+export const AboutImageCardData: ImageDescription[] = [
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1680180166/elewa-group-website/Icons/PNG/Holistic_118_ylipr0.png",
+        description1: "We go beyond a simple patch-up but develop lasting solutions through holistic design.",
+        heading: "Holistic solutions"
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690301/elewa-group-website/Icons/PNG/coorperative_kzlzrg.png",
+        description1: "Impact as a direct, or indirect, result. All our respective organizations have underlying theories of change.",
+        heading: "Impact"
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690299/elewa-group-website/Icons/PNG/Opendata_fe7h3j.png",
+        description1: "Sharing is caring. We share what we learn. As proof, we've open-sourced all our internal projects.",
+        heading: "Open data"
+    },
+]
+
+export const TeamData: TeamInterface[] = [
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656822/elewa-group-website/elewa-team-members/peter-elewa_zuzovx.jpg",
+        name: "Peter Reinartz",
+        role: "Executive Chairman",
+        management: true,
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679985792/elewa-group-website/elewa-team-members/lemmy_oosngt.jpg",
+        name: "Stephen Mwaura",
+        role: " Software Engineer",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656820/elewa-group-website/elewa-team-members/jente-elewa_wbqyyi.jpg",
+        name: " Jente Rosseel",
+        role: " Founder, Managing Partner",
+        management: true
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656822/elewa-group-website/elewa-team-members/ken-elewa_ydwzop.jpg",
+        name: " Kennedy Adhola",
+        role: " Operations & Partnerships",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679660055/elewa-group-website/elewa-team-members/noella-elewa_g6tquq.jpg",
+        name: " Noella Mwanzia",
+        role: " Software Engineer",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656821/elewa-group-website/elewa-team-members/ian-elewa_bejey9.jpg",
+        name: " Ian Odhiambo",
+        role: " Founder Kujali",
+        management: true
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656821/elewa-group-website/elewa-team-members/jane-elewa_yyybka.jpg",
+        name: "Jane Njoroge",
+        role: "Software Developer",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_600/v1679657743/elewa-group-website/elewa-team-members/shawn-elewa_tt3iit.jpg",
+        name: " Shawn Chiama ",
+        role: " Software Engineer ",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_800/v1679984133/elewa-group-website/elewa-team-members/joy_gvbweu.jpg",
+        name: " Joy-Lidah Wawira ",
+        role: " Software Engineer ",
+        management: false
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656821/elewa-group-website/elewa-team-members/reagan-elewa_bn8xkl.jpg",
+        name: " Reagan Charana ",
+        role: " Software Engineer ",
+        management: false
+    }
+]
+
+export const AboutCultureData: ImageDescription[] = [
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690301/elewa-group-website/Icons/PNG/coorperative_kzlzrg.png",
+        description1: "One for all ,all for one! We have a cooperative and open mindset. If one of us grows, all will follow.",
+        heading: "Cooperative"
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690301/elewa-group-website/Icons/PNG/ownership_yno4a2.png",
+        description1: "We are dependable and honour our commitments. When things don't go as planned, as they sometimes do, we communicate early to avoid catastrophe.",
+        heading: "Ownership"
+    },
+    {
+        imageUrl: "https://static.thenounproject.com/png/1721983-200.png",
+        description1: "We are a \"Centre of Excellence\" as per global standards. We only compete with ourselves, but find in the global standard our only worthy rival.",
+        heading: "Detail"
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690301/elewa-group-website/Icons/PNG/coorperative_kzlzrg.png",
+        description1: "We are nothing without people, and people have different contexts and needs. Our organization acts as a safe haven and shield for those in need",
+        heading: "Empathy"
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690300/elewa-group-website/Icons/PNG/Transparancy_fqal8q.png",
+        description1: "Transparency, an open mind, and an open heart hold our organization together. We commit to and promote full transparency to ourselves, our stakeholders, and our beneficiaries. We furthermore invest heavily in open-source and open-data projects, as true potential lies everywhere. Not just within.",
+        heading: "Transparency"
+    },
+]
+
+export const Paragraph1: string = "Elewa is a mission-driven organization. We make use of our cooperative and shared culture to drive the needle for the development of people and environment. We care about our growth, but also care deeply about the context surrounding us."
+export const Paragraph2: string = "Our investments are therefore not limited to internal ones, but contribute heavily to our community and environment. From training the next scout leaders on sustainable practices, to bridging the employment gap for junior software developers."
 
 export default KeyFigures

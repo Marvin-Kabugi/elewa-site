@@ -1,0 +1,13 @@
+.culture-heading {
+    font-size: 3rem;
+    padding: 1.8rem 0;
+    margin: 0 0 1.2rem;
+    font-weight: 500;
+}
+
+.culture-description {
+    width: 60%;
+    margin: 0 0 1.2rem;
+    padding: 0 0 1.8rem;
+    font-size: 1.5rem;
+}

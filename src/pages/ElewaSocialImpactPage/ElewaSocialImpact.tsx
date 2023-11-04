@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Landing from '../../components/LandingComponent/Landing';
 import Footer from '../../components/FooterComponent/Footer';
 import ChildElement from '../../components/ChildComponent/ChildElement';
-import KeyFigure from '../../components/KeyFigureComponent/KeyFigure';
 import Metrics from '../../components/MetricsComponent/Metrics';
 import ProjectList from '../../components/ProjectListComponent/ProjectList';
 import ImageDescription from '../../components/ImageDescriptionComponent/ImageDescription';

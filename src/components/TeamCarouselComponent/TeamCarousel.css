@@ -1,0 +1,50 @@
+.carousel-section {
+    background-color: black;
+    padding: 5rem;
+}
+
+.carousel-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.header-span {
+    margin: 0 1.25rem 0 3.1rem;
+    padding: 0 1.25rem 0 0;
+    font-size: 3.1rem;
+    border-right: 3px solid #FFF;
+}
+
+.header-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.carousel-header p {
+    font-size: 3.1rem;
+}
+
+.carousel-header p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+}
+
+.dormant {
+    color: #808080;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    /* justify-content: space-between; */
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
