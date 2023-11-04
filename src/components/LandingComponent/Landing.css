@@ -4,15 +4,27 @@
 
 .container {
     position: relative;
-    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+
 }
 
+.container img {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
 
+}
 
 .h2 {
     position: absolute;
     left: 5%;
-    top: 20%;
+    top: 22%;
     color: white;
 }
 
@@ -20,8 +32,8 @@
     width: 50%;
     position: absolute;
     left: 5%;
-    top: 22.5%;
-    font-size: 4rem;
+    top: 24.5%;
+    font-size: 4.3rem;
     color: white;
     font-weight: 400;
     text-align:start;

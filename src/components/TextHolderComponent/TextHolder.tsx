@@ -3,7 +3,7 @@ import './TextHolder.css'
 
 interface Props {
     heading: string;
-    children: React.ReactNode
+    children?: React.ReactNode
 }
 
 export default function TextHolder({heading, children}: Props) {
