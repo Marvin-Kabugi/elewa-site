@@ -1,61 +1,60 @@
 .elewa-button {
-    background-color: black;
-    width: 25%;
-    display: flex;
-    padding: 1px 5.5px 1px 16px;
-    color: white;
-    align-items: center;
-    /* justify-content: flex-end; */
-    border: 1px solid black;
-    cursor: pointer;
-    border-radius: 32px;
-    font-size: 1.1rem;
+  background-color: black; /* Button background color */
+  width: 25%; /* Button width relative to its parent container */
+  display: flex; /* Use flexbox for internal item alignment */
+  padding: 1px 5.5px 1px 16px; /* Padding inside the button */
+  color: white; /* Text color inside the button */
+  align-items: center; /* Center items vertically inside the button */
+  /* justify-content: flex-end; */ /* Commented out: would align items to the end of the button */
+  border: 1px solid black; /* Border around the button */
+  cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+  border-radius: 32px; /* Rounded corners of the button */
+  font-size: 1.1rem; /* Font size inside the button */
 }
 
 .elewa-button span {
-    margin: 10px;
-    transition: all .3s;
+  margin: 10px; /* Margin around the text inside <span> */
+  transition: all .3s; /* Smooth transition for all properties over 0.3 seconds */
 }
 
 .elewa-button section {
-    position: relative;
-    background-color: #f4f4f4;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    left: 0%;
-    transition: all .7s;
+  position: relative; /* Positioning context for the animated section */
+  background-color: #f4f4f4; /* Background color of the section element */
+  width: 32px; /* Width of the section element */
+  height: 32px; /* Height of the section element */
+  border-radius: 50%; /* Makes the section element circular */
+  display: flex; /* Use flexbox for internal item alignment */
+  align-items: center; /* Center items vertically inside the section */
+  left: 0%; /* Position the section at the very start of the button */
+  transition: all .7s; /* Smooth transition for all properties over 0.7 seconds */
 }
 
 .elewa-button svg {
-    color: black;
-    font-size: 1rem;
-    margin: auto;
-    height: 1em;
-    vertical-align: -0.125em;
+  color: black; /* Color of the SVG icon */
+  font-size: 1rem; /* Size of the icon */
+  margin: auto; /* Auto margins to center the icon horizontally and vertically */
+  height: 1em; /* Height of the icon relative to its font-size */
+  vertical-align: -0.125em; /* Vertical alignment of the icon */
 }
 
 .elewa-button:hover {
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: flex-start;
+  background-color: white; /* Background color of the button on hover */
+  color: black; /* Text color inside the button on hover */
+  display: flex; /* Ensure the button keeps using flexbox on hover */
+  justify-content: flex-start; /* Align items to the start on hover */
 
 }
 
 .elewa-button:hover span {
-    transform: translate(20px);
+  transform: translate(20px); /* Move the span to the right by 20px on hover */
 }
 
 .elewa-button:hover section{
-    left: calc(-100% + 60px);
-    background-color: black;
-    transition: all .7s;
+  left: calc(-100% + 60px); /* Move the section to the left on hover, with 60px inside the button */
+  background-color: black; /* Section background color on hover */
+  transition: all .7s; /* Smooth transition for all properties over 0.7 seconds */
 }
 
 .elewa-button:hover svg {
-    color: white;
+  color: white; /* Color of the icon on hover */
 }
-

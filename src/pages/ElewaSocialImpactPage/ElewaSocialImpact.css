@@ -1,10 +1,12 @@
-.project-heading {
-    padding: 5rem 0;
-    text-align: center;
+/* The .project-heading class styles the container of the project heading,
+   providing space around it and centering the text within. */
+   .project-heading {
+    padding: 5rem 0; /* Vertical padding of 5rem is applied to the top and bottom for spacing. */
+    text-align: center; /* Text alignment is set to center, affecting all child elements. */
 }
 
+/* Styles specific to the <p> element within the .project-heading container. */
 .project-heading p {
-    font-size: 3.5rem;
-    font-weight: 400;
+    font-size: 3.5rem; /* Sets the font size of the paragraph to 3.5rem for prominence. */
+    font-weight: 400; /* The font weight is set to 400 for normal text thickness. */
 }
-

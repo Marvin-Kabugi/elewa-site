@@ -1,15 +1,21 @@
-.project-element {
-    height: 100px;
-    margin: 0 3rem;
-    display: flex;
-    align-items: center;
+/* Project.css
+   This stylesheet is responsible for the styling of the Project component. 
+   It defines the layout and sizing for project elements and their images. */
+
+/* The container for an individual project */
+   .project-element {
+    height: 100px; /* Fixed height for each project element */
+    margin: 0 3rem; /* Horizontal margins */
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center the content within the flex container */
 }
 
+/* Styles for the image within a project element. */
 .project-element img {
-    max-height: 60px;
-    width: fit-content;
-    vertical-align: middle;
-    margin: 0 auto;
-    display: inline-block;
-    object-fit: contain;
+    max-height: 60px; /* Maximum height for the image to maintain proportions */
+    width: fit-content; /* Width is set to the content's intrinsic width */
+    vertical-align: middle; /* Aligns the image to the middle of the line */
+    margin: 0 auto; /* Auto margins on the sides to center the image horizontally */
+    display: inline-block; /* Display the image inline with other elements, if any */
+    object-fit: contain; /* Ensures the image's aspect ratio is preserved while fitting within the element's box */
 }

@@ -1,13 +1,23 @@
+/* CultureHeading.css
+   This stylesheet provides styling for the CultureHeading component used to display the section heading and description for the company culture and values section.
+*/
+
+/* 
+   Style for the heading of the culture section.
+*/
 .culture-heading {
-    font-size: 3rem;
-    padding: 1.8rem 0;
-    margin: 0 0 1.2rem;
-    font-weight: 500;
+    font-size: 3rem;      /* Large font size for clear visibility as a heading */
+    padding: 1.8rem 0;    /* Vertical padding to give space around the text */
+    margin: 0 0 1.2rem;   /* Bottom margin to create space below the heading */
+    font-weight: 500;     /* Medium font weight for heading emphasis */
 }
 
+/* 
+   Style for the description text in the culture section.
+*/
 .culture-description {
-    width: 60%;
-    margin: 0 0 1.2rem;
-    padding: 0 0 1.8rem;
-    font-size: 1.5rem;
+    width: 60%;           /* Width set to 60% for optimal line length and readability */
+    margin: 0 0 1.2rem;   /* Bottom margin to separate from any content that follows */
+    padding: 0 0 1.8rem;  /* Bottom padding to offset from any content above */
+    font-size: 1.5rem;    /* Font size is large enough to be readable but not overwhelming */
 }

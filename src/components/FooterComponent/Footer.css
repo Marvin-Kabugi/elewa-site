@@ -1,43 +1,58 @@
-.container-2 {
-    height: 70vh;
-    padding-top: 7rem;
-    background-color: black;
-    border-radius: 30px 30px 0 0;
+/* Footer.css
+ * Stylesheet for the Footer component of the website.
+ * It defines the layout, spacing, and visual design for the footer elements.
+ */
+
+/* General container styling for the footer which takes up 70% of the viewport height
+ * and has a top padding with a rounded border at the top.
+ */
+ .container-2 {
+    height: 70vh; /* Sets the height of the container to 70% of the viewport height. */
+    padding-top: 7rem; /* Adds padding to the top of the container. */
+    background-color: black; /* Sets the background color of the container to black. */
+    border-radius: 30px 30px 0 0; /* Rounds the top corners of the container. */
 }
 
+/* Styles for the container that holds the footer links.
+ * It ensures the links are spaced out evenly and have a white top border.
+ */
 .footer-link-container {
-    width: 90%;
-    height: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    border-top: 1px solid white ;
+    width: 90%; /* Sets the width of the container to 90% of its parent. */
+    height: 80%; /* Sets the height to 80% of its parent. */
+    margin: 0 auto; /* Centers the container in the middle horizontally. */
+    display: flex; /* Applies flexbox display style for its children. */
+    justify-content: space-around; /* Distributes items evenly with equal space around them. */
+    color: white; /* Sets the text color to white. */
+    border-top: 1px solid white; /* Adds a top border to the container. */
 }
 
-.footer-link-container p{
-    margin: 0;
+/* Style for paragraphs inside the footer link container to remove default margins. */
+.footer-link-container p {
+    margin: 0; /* Resets the margin of paragraphs to 0. */
 }
 
-.footer-link-container p:hover{
-    text-decoration: underline;
-    cursor: pointer;
+/* Adds hover effect to paragraphs inside the footer link container for better user interaction. */
+.footer-link-container p:hover {
+    text-decoration: underline; /* Underlines text on hover to indicate it's clickable. */
+    cursor: pointer; /* Changes the cursor to indicate a clickable item. */
 }
 
+/* Styles for the container that includes the footer logo and social media icons. */
 .footer-link-image-container {
-    height: 15%;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 15%; /* Sets the height to 15% of its parent. */
+    width: 90%; /* Sets the width to 90% of its parent. */
+    margin: 0 auto; /* Centers the container horizontally within its parent. */
+    display: flex; /* Uses flexbox for layout. */
+    justify-content: space-between; /* Places content with maximum space between items. */
+    align-items: center; /* Centers items vertically within the container. */
 }
 
-.footer-link-images img{
-    padding: 2rem;
+/* Styles for the images within the footer-link-images container, adding padding. */
+.footer-link-images img {
+    padding: 2rem; /* Adds padding around the images. */
 }
 
-.footer-link-images img:hover{
-    cursor: pointer;
+/* Hover effect for images within the footer-link-images to provide visual feedback. */
+.footer-link-images img:hover {
+    cursor: pointer; /* Changes cursor to a pointer to suggest image is clickable. */
 }
-

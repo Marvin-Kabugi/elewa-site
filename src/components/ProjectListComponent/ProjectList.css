@@ -1,18 +1,19 @@
-.project-list-container {
-    display: flex;
-    /* animation-name: anim;
-    animation: 40s linear infinite;  */
-    animation: anim 40s linear infinite; 
-    /* width: 218rem; */
+/* ProjectList.css
+ * Stylesheet for the ProjectList component. It defines the layout and animation for the container
+ * that holds individual project entries.
+ */
 
+ .project-list-container {
+    display: flex; /* Aligns Project components in a row */
+    animation: anim 40s linear infinite; /* Applies a continuous scrolling animation */
 }
 
+/* Keyframes for the scrolling animation applied to the project list container. */
 @keyframes anim {
     0% {
-        transform: translateX(0);
+        transform: translateX(0); /* Starting position of the animation */
     }
     100% {
-        transform: translateX(-1750px);
+        transform: translateX(-1750px); /* Ending position, creating a scrolling effect */
     }
-    
 }

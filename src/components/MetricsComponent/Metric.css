@@ -1,11 +1,18 @@
-.metric-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
+/* Metric.css
+ * This stylesheet is used to style the Metric component in the application.
+ * The Metric component displays a key metric and its description.
+ * It aims for a simple, clean design with a central alignment.
+ */
+
+ .metric-container {
+    display: flex;              /* Establishes a flex container for better alignment and spacing. */
+    flex-direction: column;     /* Stacks items vertically. */
+    gap: 20px;                  /* Sets a consistent space between the child elements. */
+    text-align: center;         /* Aligns the text centrally within the flex container. */
 }
 
-.metric-container h1, .metric-container p {
-    padding: 0;
-    margin: 0;
+.metric-container h1,
+.metric-container p {
+    padding: 0;                 /* Resets padding */
+    margin: 0;                  /* Resets margin */
 }

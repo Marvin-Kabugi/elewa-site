@@ -1,13 +1,21 @@
+/* CultureDetail.css
+   This stylesheet contains styles specific to the CultureDetail component.
+*/
+
+/* Sets the width of each cultural detail container to half of the parent's width minus 10px, and adds padding. */
 .detail-container {
     width: calc(50% - 10px);
     padding: 20px;
 }
 
+/* For every odd-numbered container, it removes left margin and adds a top border for separation. */
 .detail-container:nth-child(2n + 1) {
     margin-left: 0;
-    border-top: 1px solid #333;
+    border-top: 1px solid #333; /* Dark border for the top, providing a visual separation. */
 }
 
+/* For every even-numbered container, it sets the left padding, removes the right margin,
+   adds a left border, and a top border for a visually consistent separation. */
 .detail-container:nth-child(2n) {
     padding-left: 1.2rem;
     margin-right: 0;
@@ -16,6 +24,8 @@
     border-top: 1px solid #333;
 }
 
+/* The last cultural detail container grows to fit the remaining space if necessary,
+   centers its content, and aligns the text to the center. */
 .detail-container:last-child {
     flex-grow: 1;
     display: flex;
@@ -26,21 +36,26 @@
     margin: auto;
 }
 
-.detail-container:last-child p{
+/* Specifies the width of the paragraph in the last detail container to 65% of its parent container. */
+.detail-container:last-child p {
     width: 65%;
 }
+
+/* Sets the size of the image within the detail container and ensures its content is sized correctly without distortion. */
 .detail-container img {
     width: 90px;
     height: 90px;
-    object-fit: contain;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio. */
     margin-bottom: 1.2rem;
 }
 
+/* Adds styling to the heading in the detail container, including margins and font size. */
 .detail-container h2 {
     margin: 1.2rem 0;
     font-size: 2.5rem;
 }
 
+/* Adds styling to the paragraph in the detail container, including bottom margin and font size. */
 .detail-container p {
     margin-bottom: 1.2rem;
     font-size: 1.3rem;

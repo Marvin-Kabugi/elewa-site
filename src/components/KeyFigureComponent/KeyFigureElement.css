@@ -1,26 +1,34 @@
+/* KeyFigureElement.css
+   This stylesheet provides styling for the KeyFigureElement component. 
+   It includes styles for the container element, heading, description, and special styling for the last character of the heading if it's a string.
+*/
+
+/* Styling for the container of the key figure element */
 .key-element {
-    border: 1px solid black;
-    text-align: center;
-    padding-top: 6.2rem;
-    border-radius: 5%;
+    border: 1px solid black; /* Adds a border around the element */
+    text-align: center; /* Centers text horizontally */
+    padding-top: 6.2rem; /* Spacing from the top of the container */
+    border-radius: 5%; /* Rounds the corners of the container */
 }
 
+/* Styling for the heading within the key figure element */
 .key-element h1 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 5rem;
-    padding: 0;
-    
+    margin: 0; /* Removes the default margin */
+    font-weight: bold; /* Makes the font bold */
+    font-size: 5rem; /* Sets the size of the font */
+    padding: 0; /* Removes any default padding */
 }
 
+/* Styling for the paragraph (description) within the key figure element */
 .key-element p {
-    padding: 1.5rem;
-    margin: 0;
-    font-size: 1.5rem;
+    padding: 1.5rem; /* Adds padding inside the paragraph for spacing */
+    margin: 0; /* Removes the default margin */
+    font-size: 1.5rem; /* Sets the size of the font for the paragraph */
 }
 
+/* Styling for the span element which may wrap the last character of the heading if it's a string */
 .key-element span {
-    font-size: 1.2rem;
-    margin: 0;
-    padding: 0;
+    font-size: 1.2rem; /* Sets the size of the font for the span, smaller than the main heading */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Ensures there's no padding affecting the layout */
 }

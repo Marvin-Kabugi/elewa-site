@@ -1,11 +1,15 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-
+/* Apply a natural box layout model to all elements, where width and height properties
+   include padding and border, but not margin. */
+   * {
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the body element: */
+  body {
+    margin: 0;               /* Remove default margin provided by the browser for a clean layout start. */
+    overflow-x: hidden;      /* Prevent horizontal scroll, useful for ensuring no horizontal scroll 
+                                is created by unintentional overflow or positioning. */
+    overflow-y: scroll;      /* Force a vertical scrollbar to prevent jittery movements when navigating 
+                                between pages of different content heights. */
+  }
+  

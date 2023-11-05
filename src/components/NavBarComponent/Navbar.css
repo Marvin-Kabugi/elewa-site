@@ -1,27 +1,37 @@
+/* Navbar.css
+   This stylesheet provides the styles for the NavBar component. It ensures the navigation bar
+   is fixed at the top of the page, stretches across the full width, and displays its contents
+   with appropriate spacing and styling.
+*/
+
+/* The main container for the navbar, positioned at the top of the page.
+   It uses a flex display to align its children (logo and navigation links) and a bottom border for visual separation.
+*/
 .main-div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    margin: 3rem auto;
-    padding: 0 0 1rem;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
-    overflow: hidden;
+    position: absolute; /* Positioned absolutely to the top of the parent container */
+    top: 0; /* Aligns to the top of the parent */
+    left: 0; /* Aligns to the left of the parent */
+    right: 0; /* Aligns to the right of the parent, ensuring full width */
+    z-index: 1; /* Ensures the navbar is above other elements */
+    margin: 3rem auto; /* Centers the navbar with a top margin for spacing */
+    padding: 0 0 1rem; /* Padding at the bottom for spacing from the content below */
+    width: 90%; /* Sets the width to 90% of the parent, allowing for some margin from the viewport's edges */
+    display: flex; /* Enables flexbox layout for its children */
+    justify-content: space-between; /* Spaces out children (logo and nav links) evenly */
+    border-bottom: 1px solid white; /* Adds a subtle bottom border for visual separation */
+    overflow: hidden; /* Prevents any overflow (e.g., from absolute positioning) */
 }
 
+/* Styling for the navigation links unordered list */
 .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+    list-style: none; /* Removes default list styling */
+    display: flex; /* Enables flexbox layout for list items */
+    justify-content: space-evenly; /* Distributes items evenly across the available space */
 }
 
+/* Styling for the anchor tags within each navigation link item */
 .nav-link-item a{
-    padding: 0.75rem;
-    text-decoration: none;
-    color: white;
+    padding: 0.75rem; /* Adds padding for clickable area and visual spacing */
+    text-decoration: none; /* Removes the default underline from links */
+    color: white; /* Sets the text color to white for visibility against darker backgrounds */
 }
-

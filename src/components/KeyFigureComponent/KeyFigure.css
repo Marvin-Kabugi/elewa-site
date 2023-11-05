@@ -1,12 +1,19 @@
-.parent-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 100%;
-    padding: 3.1rem 0;
+/* KeyFigure.css
+   This file contains the styles for the KeyFigure component. It defines the grid layout
+   for key figure elements and the styling for the title of the key figures section.
+*/
+
+/* The .parent-grid class sets up a grid layout for child elements. */
+   .parent-grid {
+    display: grid; /* Establishes a grid container */
+    grid-template-columns: repeat(4, 1fr); /* Creates four columns of equal width */
+    max-width: 100%; /* Ensures the grid does not exceed the width of its container */
+    padding: 3.1rem 0; /* Vertical padding for spacing above and below the grid */
 }
 
+/* The .figure-title class applies styling to the title of the key figures section.*/
 .figure-title {
-    font-size: 3rem;
-    text-align: center;
-    margin: 3.1rem;
+    font-size: 3rem; /* Sets the font size of the title to 3rem */
+    text-align: center; /* Centers the title text horizontally */
+    margin: 3.1rem; /* Adds margin around the title for spacing from other elements */
 }
