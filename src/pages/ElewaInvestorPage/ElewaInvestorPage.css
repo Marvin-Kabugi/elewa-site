@@ -1,38 +1,45 @@
+/* Sets a light grey background color for the container of the child components. */
 .bg-child-component {
     background: #f7f7f7;
 }
 
+/* Styles for the container that wraps child components, centers them with auto margins, and sets their width to 90% of the parent. */
 .child-components {
     width: 90%;
     margin: 0 auto;
 }
 
+/* Specific styles for h5 headings inside the child-components container, including font size, weight, and top padding for spacing. */
 .child-components h5 {
-    font-size: 6rem;
-    font-weight: 400;
-    margin: 0;
-    padding-top: 7rem;
+    font-size: 6rem;      /* Large font size for emphasis */
+    font-weight: 400;     /* Normal font weight for readability */
+    margin: 0;            /* Removes the default margin */
+    padding-top: 7rem;    /* Adds space above the heading */
 }
 
+/* Styles for paragraphs inside the child-components container, controlling the width, font size, and padding for proper layout and legibility. */
 .child-components p {
-    width: 70%;
-    font-size: 2.7rem;
-    margin: 0;
-    padding-top: 3rem;
+    width: 70%;           /* Sets the width to 70% of its container for a controlled text line length */
+    font-size: 2.7rem;    /* Sets a large font size for visibility */
+    margin: 0;            /* Removes the default margin */
+    padding-top: 3rem;    /* Adds space above the paragraph */
 }
 
+/* Styles for images inside the child-components container, ensuring they span the full width of their container and have appropriate spacing above. */
 .child-components img {
-    padding-top: 4.5rem;
-    width: 100%;
+    padding-top: 4.5rem;  /* Adds space above the image */
+    width: 100%;          /* Sets the image to take the full width of its container */
 }
 
+/* Styles for links within the span element, removing the underline, setting the color to black, and making the font bold. */
 .span-link {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
+    text-decoration: none; /* Removes the default underline from links */
+    color: black;          /* Sets the text color to black for contrast */
+    font-weight: 800;      /* Makes the text bold for emphasis */
 }
 
+/* Hover styles for the .span-link, adding an underline when the user hovers over the link to indicate it's clickable. */
 .span-link:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 3.5px;
+    text-decoration: underline;            /* Adds an underline on hover */
+    text-decoration-thickness: 3.5px;      /* Sets the thickness of the underline for visual prominence */
 }

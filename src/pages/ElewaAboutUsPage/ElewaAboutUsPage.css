@@ -1,9 +1,14 @@
-.p-tag {
-    width: 50%;
-    position: absolute;
-    left: 5%;
-    bottom: 7%;
-    color: white;
-    font-weight: 900;
-    text-align:start; 
+/**
+ * .p-tag - Style definition for a specialized paragraph element.
+ */
+
+ .p-tag {
+    width: 50%;           /* The paragraph takes up half the width of its parent container. */
+    position: absolute;   /* The element is positioned absolutely relative to its nearest positioned ancestor. */
+    left: 5%;             /* Horizontally, the paragraph is placed at 5% from the left of its containing block. */
+    bottom: 7%;           /* Vertically, it's placed at 7% from the bottom of its containing block. */
+    color: white;         /* The text color is set to white, providing contrast for readability on darker backgrounds. */
+    font-weight: 900;     /* Text is given a bold weight for emphasis. */
+    text-align: start;    /* The text alignment is set to 'start', which aligns text to the start of the line
+                             (left in left-to-right languages, right in right-to-left languages). */
 }

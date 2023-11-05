@@ -1,23 +1,29 @@
+/* CarouselItem.css
+   This stylesheet provides styling for the CarouselItem component used in a carousel layout. */
+
+/* The main container for each carousel item */
 .carousel-item {
-    min-width: 25%;
-    margin-right: 0.6rem;
-    color: white;
+    min-width: 25%; /* Each item takes up at least 25% of the carousel's width */
+    margin-right: 0.6rem; /* Spacing to the right of each item */
+    color: white; /* Text color within the carousel item */
 }
 
+/* Style rules for the image within a carousel item */
 .carousel-item img {
-    height: 50vh;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+    height: 50vh; /* Image height is 50% of the viewport height */
+    width: 100%; /* Image width is 100% of the item's width */
+    object-fit: cover; /* The image will cover the area of the container without being stretched */
+    border-radius: 20px; /* Rounded corners for the image */
 }
 
+/* Styling for the first paragraph */
 .first-p {
-    font-size: 1.6rem;
-    margin: 5px 0;
+    font-size: 1.6rem; /* Font size for the name */
+    margin: 5px 0; /* Vertical margin for spacing */
 }
 
+/* Styling for the second paragraph */
 .second-p {
-    font-size: 1.1rem;
-    margin: 5px 0;
+    font-size: 1.1rem; /* Smaller font size for the role */
+    margin: 5px 0; /* Consistent vertical margin for spacing */
 }
-

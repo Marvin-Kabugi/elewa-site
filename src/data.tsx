@@ -1,3 +1,4 @@
+// This File contains data specific to the application.
 import { Key } from "react";
 
 interface KeyFigure {

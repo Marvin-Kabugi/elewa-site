@@ -1,41 +1,46 @@
-/* .h2 .h1 {
-    z-index: 2;
-} */
+/* Landing.css
+ * Stylesheet for the Landing component.
+ * Provides styling for a full viewport background image with overlaid text headings.
+ */
 
+
+
+/* Container for the entire Landing component, designed to fill the viewport. */
 .container {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-
+    position: relative; /* Establishes a positioning context for absolutely positioned children. */
+    height: 100vh; /* Full viewport height. */
+    width: 100vw; /* Full viewport width. */
+    margin: 0; /* Removes default margin to ensure it fills the viewport. */
+    padding: 0; /* Removes default padding. */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for any unfilled areas (e.g., during image loading). */
 }
 
+/* Styles for the image within the container, setting it as a background cover. */
 .container img {
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-
+    object-fit: cover; /* Ensures the image covers the entire container without distortion. */
+    position: absolute; /* Removes the image from the normal flow and positions it relative to its nearest positioned ancestor. */
+    z-index: -1; /* Places the image behind the text content. */
+    width: 100vw; /* Full viewport width. */
+    height: 100vh; /* Full viewport height. */
 }
 
+/* Styling for the secondary heading (h2) with absolute positioning and white color. */
 .h2 {
-    position: absolute;
-    left: 5%;
-    top: 24%;
-    color: white;
-    font-weight: 300;
+    position: absolute; /* Positioned absolutely to allow for precise placement over the image. */
+    left: 5%; /* Horizontally positions the h2 from the left of the container. */
+    top: 24%; /* Vertically positions the h2 from the top of the container. */
+    color: white; /* Text color, chosen for contrast against the background image. */
+    font-weight: 300; /* Font weight for the secondary heading, typically lighter than the primary heading. */
 }
 
+/* Styling for the primary heading (h1) with absolute positioning, white color, and larger font size. */
 .h1 {
-    width: 50%;
-    position: absolute;
-    left: 5%;
-    top: 27.5%;
-    font-size: 4rem;
-    color: white;
-    font-weight: 400;
-    text-align:start;
+    width: 50%; /* Sets the width of the h1 to half of its container's width. */
+    position: absolute; /* Positioned absolutely to overlay on top of the background image. */
+    left: 5%; /* Horizontally positions the h1 from the left of the container. */
+    top: 27.5%; /* Vertically positions the h1 just below the h2. */
+    font-size: 4rem; /* Large font size for prominence. */
+    color: white; /* Text color for readability against the background image. */
+    font-weight: 400; /* Font weight for the primary heading, slightly heavier than the secondary heading. */
+    text-align: start; /* Aligns text to the start (left) of the content box. */
 }

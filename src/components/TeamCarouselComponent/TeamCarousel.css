@@ -1,50 +1,60 @@
+/* Carousel section styling */
 .carousel-section {
-    background-color: black;
-    padding: 5rem;
-}
-
-.carousel-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-}
-
-.header-span {
-    margin: 0 1.25rem 0 3.1rem;
-    padding: 0 1.25rem 0 0;
-    font-size: 3.1rem;
-    border-right: 3px solid #FFF;
-}
-
-.header-span:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.carousel-header p {
-    font-size: 3.1rem;
-}
-
-.carousel-header p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.active {
-    color: white;
-}
-
-.dormant {
-    color: #808080;
-}
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-    /* justify-content: space-between; */
-}
-
-.btn {
-    display: flex;
-    justify-content: flex-end;
-}
+    background-color: black; /* Background color for the carousel section */
+    padding: 5rem; /* Padding around the carousel content */
+  }
+  
+  /* Carousel header styling */
+  .carousel-header {
+    display: flex; /* Align header items in a row */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 5rem; /* Space below the header */
+  }
+  
+  /* Header span styling */
+  .header-span {
+    margin: 0 1.25rem 0 3.1rem; /* Margin around the span */
+    padding: 0 1.25rem 0 0; /* Padding to the right of the span */
+    font-size: 3.1rem; /* Font size of the span */
+    border-right: 3px solid #FFF; /* Border to the right of the span */
+  }
+  
+  /* Hover effect for header span */
+  .header-span:hover {
+    text-decoration: underline; /* Underline text on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+  }
+  
+  /* Carousel header paragraph styling */
+  .carousel-header p {
+    font-size: 3.1rem; /* Font size for paragraphs in the header */
+  }
+  
+  /* Hover effect for paragraphs in the header */
+  .carousel-header p:hover {
+    text-decoration: underline; /* Underline text on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+  }
+  
+  /* Active class styling for selected header item */
+  .active {
+    color: white; /* White text for active items */
+  }
+  
+  /* Dormant class styling for non-selected header items */
+  .dormant {
+    color: #808080; /* Grey text for dormant items */
+  }
+  
+  /* Carousel content styling */
+  .carousel {
+    display: flex; /* Display carousel items in a row */
+    overflow: hidden; /* Hide overflowed content */
+  }
+  
+  /* Carousel button container styling */
+  .btn {
+    display: flex; /* Align button in a row */
+    justify-content: flex-end; /* Align button to the right */
+  }
+  

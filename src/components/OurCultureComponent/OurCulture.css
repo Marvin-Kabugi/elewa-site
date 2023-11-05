@@ -1,15 +1,21 @@
+/* OurCulture.css
+ * Styling for OurCulture component with layout for culture section, heading, and details.
+ */
+
+/* Main container with uniform padding. */
 .culture-container {
     padding: 3.2rem 3rem;
 }
 
+/* Heading container centered with top and bottom padding. */
 .heading-container {
     padding: 0.6rem 5%;
     width: 90%;
     margin: 0 auto;
 }
 
+/* Flex container for culture details with wrapping items. */
 .culture-detail {
     display: flex;
     flex-wrap: wrap;
 }
-

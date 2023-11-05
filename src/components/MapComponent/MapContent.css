@@ -1,22 +1,31 @@
+/* MapContent.css
+ * Stylesheet for the MapContent component of Elewa's application.
+ * It provides styling for the container, layout, headings, and paragraphs within the MapContent component.
+ */
+
+/* The main container for the map content, with a light gray background and vertical padding. */
 .mp-main {
-    background-color: #f4f4f4;
-    padding: 5rem 0;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    padding: 5rem 0; /* Vertical padding to add space above and below the content */
 }
 
+/* Container that holds the map and the text content side by side using flex display. */
 .mp-container {
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Enables flexbox layout for inner elements */
+    justify-content: space-between; /* Spaces the child elements evenly within the container */
 }
 
+/* Styling for the heading in the map content area. */
 .map-heading {
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin:2.375rem 0; 
+    font-size: 2.5rem; /* Sets the size of the heading font */
+    font-weight: 300; /* Light font weight for the heading for a modern look */
+    margin: 2.375rem 0; /* Vertical margin to add space above and below the heading */
 }
 
+/* Styling for the paragraphs inside the map container. */
 .mp-container p {
-    margin: 2.375rem 0;
-    font-size: 1.2rem;
-    width: 60%;
-
+    margin: 2.375rem 0; /* Vertical margin to add space above and below each paragraph */
+    font-size: 1.2rem; /* Sets the font size for the paragraph text */
+    width: 60%; /* Sets the width of the paragraphs to 60% of their container */
 }
+
