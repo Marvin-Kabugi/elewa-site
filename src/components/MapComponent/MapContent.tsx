@@ -4,6 +4,7 @@ export default function MapContent(){
     const paragraph1: string = "Based in the heart of Westlands, Nairobi, Kenya, we are easily accessible from all parts of the city."
     const paragraph2: string = "Not in town? Teams, Meets or Zoom are our second name. Book an appointment today via"
     const link: string = "contact@elewa.ke!"
+    const h1Heading: string = "How to get there"
     return (
         <div className='mp-main'>
             <div className='mp-container'>
@@ -18,7 +19,7 @@ export default function MapContent(){
                     ></iframe>
                 </div>
                 <div>
-                    <h1 className='map-heading'>How to get there</h1>
+                    <h1 className='map-heading'>{h1Heading}</h1>
                     <p>{paragraph1}</p>
                     <p>{paragraph2}
                         <a href="#">{link}</a>

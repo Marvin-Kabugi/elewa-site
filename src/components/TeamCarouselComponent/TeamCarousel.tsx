@@ -1,10 +1,9 @@
-import Carousel from '../../components/TeamCarouselComponent/Carousel';
 import Button from './ButtoneComponent';
 import CarouselItem from "./CarouselItem"
 import { TeamData } from "../../data"
 
 import './TeamCarousel.css'
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function TeamCarousel (){
     const [index, setIndex] = useState<number>(0)
@@ -56,12 +55,12 @@ export default function TeamCarousel (){
     });
     }
 
-    function setTeam(value: boolean) {
+    function setTeam() {
         setTeamPage(true)
         setManagementPage(false)
     }
 
-    function setManagement(value: boolean) {
+    function setManagement() {
         setManagementPage(true)
         setTeamPage(false)
     }
@@ -69,8 +68,8 @@ export default function TeamCarousel (){
         <div className="carousel-section">
             <div>
                 <div className={teamPage ? 'carousel-header active': 'carousel-header dormant'}>
-                    <span onClick={() => setTeam(true)} className='header-span'>Team</span>
-                    <p className={managementPage ? 'active' : "dormant"} onClick={() => setManagement(true)}>Management</p>
+                    <span onClick={() => setTeam()} className='header-span'>Team</span>
+                    <p className={managementPage ? 'active' : "dormant"} onClick={() => setManagement()}>Management</p>
                 </div>
                 <div className='carousel'>
                     { toRender }

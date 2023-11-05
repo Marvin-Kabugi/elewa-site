@@ -6,13 +6,13 @@ import Metrics from '../../components/MetricsComponent/Metrics';
 import ProjectList from '../../components/ProjectListComponent/ProjectList';
 import ImageDescription from '../../components/ImageDescriptionComponent/ImageDescription';
 import TextHolder from '../../components/TextHolderComponent/TextHolder';
-import { SocialImpact } from '../../data';
+import { LandingData, SocialImpact } from '../../data';
 import './ElewaSocialImpact.css'
 
 export default function ElewaSocialImpact(){
-    let imageUrl: string = 'https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg'
-    let h2String: string = 'Scaling impact. Beyond the norm';
-    let h1String: string = 'Human and Environmental Impact through Social Enterprise';
+    const [img, setImg] = useState<string>('')
+    const [h1, setH1] = useState<string>('')
+    const [h2, setH2] = useState<string>('')
     const spanOne: string = "Become part of our mission."
     const spanTwo: string = "and "
     const alink: string = "join elewa."
@@ -32,12 +32,15 @@ export default function ElewaSocialImpact(){
             )
         })
         setDispItems([...toRender])
+        setImg(LandingData.SocialLandingData.imageUrl)
+        setH1(LandingData.SocialLandingData.h1Header)
+        setH2(LandingData.SocialLandingData.h2Header)
     },[])
     
 
     return (
         <>
-            <Landing imageUrl={imageUrl} h1String={h1String} h2String={h2String}/>
+            <Landing imageUrl={img} h1String={h1} h2String={h2}/>
             <Metrics />
             {dispItems}
             <div className='project-heading'>

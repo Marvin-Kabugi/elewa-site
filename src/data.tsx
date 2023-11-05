@@ -184,6 +184,16 @@ export const LandingData: Record<string, LandingInterface> = {
       imageUrl: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg",
       h2Header: "HOW TO RECOGNIZE AN ELEWA MEMBER", // corrected property name
       h1Header: "Dependable, Creative, Supportive, Open Minded and Fun*" // corrected property name
+    }, 
+    InvestorLandingData: {
+        imageUrl: 'https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg',
+        h2Header: 'Trade, not aid',
+        h1Header: 'Southern innovations addressing global problems'
+    },
+    SocialLandingData: {
+        imageUrl:'https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg',
+        h2Header: 'Scaling impact. Beyond the norm',
+        h1Header: 'Human and Environmental Impact through Social Enterprise',
     }
   };
 
