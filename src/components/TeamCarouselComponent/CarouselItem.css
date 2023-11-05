@@ -1,0 +1,23 @@
+.carousel-item {
+    min-width: 25%;
+    margin-right: 0.6rem;
+    color: white;
+}
+
+.carousel-item img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.first-p {
+    font-size: 1.6rem;
+    margin: 5px 0;
+}
+
+.second-p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+

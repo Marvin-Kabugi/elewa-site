@@ -24,16 +24,17 @@
 .h2 {
     position: absolute;
     left: 5%;
-    top: 22%;
+    top: 24%;
     color: white;
+    font-weight: 300;
 }
 
 .h1 {
     width: 50%;
     position: absolute;
     left: 5%;
-    top: 24.5%;
-    font-size: 4.3rem;
+    top: 27.5%;
+    font-size: 4rem;
     color: white;
     font-weight: 400;
     text-align:start;
